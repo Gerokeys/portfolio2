@@ -2,7 +2,7 @@ document.body.style.opacity = 1;
 
 const tl = gsap.timeline();
 
-tl.from(".intro > div", 1.8, {
+tl.from(".intro > div, .intro > a", 1.8, {
   opacity: 0,
   y: -100,
   ease: "power4.out",
